@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
 body{
+font-family: 'Roboto', sans-serif;
 margin: 0;
 padding: 0;
 background-color: #F0F2F5;
@@ -124,4 +128,93 @@ background-color: #F0F2F5;
   .options .option:hover{
     background-color: #cacbcb;
     cursor: pointer;
+  }
+
+  /* Container */
+
+  .container{
+    display: flex;
+  }
+  .lists{
+    list-style: none;
+    padding-left: 10px;
   } 
+.list{
+  display: flex;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  
+}
+.list:hover{
+  background-color: #E4E6E9;
+}
+
+.list .right,.list .left{
+  margin-top: 5px;
+}
+
+.list .left{
+  margin-left: 5px;
+}
+  .list_logo{
+    border-radius: 50%;
+    font-size: 30px;
+    color: #080808;
+    width: 36px;
+  }
+  .list_name{
+    font-weight: 500;
+    margin: 10px 0 0 10px;
+  }
+  .avatar_img{
+    width: 38px;
+    height: 38px;
+  }
+  .down_icon{
+    background-color: #92939625;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  .material-symbols-outlined{
+    color: black;
+    margin: 1px 1px 0 -1px;
+  }
+
+  /* Stories */
+
+
+  .stories{
+    width: 700px;
+    height: 300px;
+    background-color: #FFF ;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+
+
+
+  /* New Post */
+  .new_post{
+    width: 700px;
+    height: 130px;
+    background-color: #FFF ;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  /* Feed Post */
+
+  .feed_post{
+    height: 820px;
+    background-color: #FFF ;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    
+  }
